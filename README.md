@@ -49,16 +49,10 @@ CupidX is a high-performance, multipurpose Discord bot designed for modern serve
    TOKEN=your_discord_bot_token_here
    ```
 
-4. **Run the Bot**:
+4. **Edit config values**:
+   ``Navigate to utils/config.py and Edit all needed values such as owner ids (Bot owner ids), bot suppport server url, etc. To change emojis, change them from utils/detectfile.py``
+   
+5. **Run the Bot**:
    ```bash
    python main.py
    ```
-
-## 🌐 API Information
-CupidX includes a built-in API for displaying stats on your website.
-- **Stats Endpoint**: `http://localhost:8000/stats`
-- **Output**: JSON containing server count, user count, and online status.
-
----
-
-Built with ❤️ by **CupidX HQ**
