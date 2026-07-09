@@ -1,0 +1,14 @@
+{
+    "1494206504201621555": {
+        "enabled": false,
+        "channel": null,
+        "interval": 60,
+        "last": 0
+    },
+    "1487911336028405762": {
+        "enabled": true,
+        "channel": 1498438326233862315,
+        "interval": 60,
+        "last": 0
+    }
+}

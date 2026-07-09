@@ -1,0 +1,17 @@
+{
+    "enabled": false,
+    "channel": 1495359908038709288,
+    "role": 1495360075689361449,
+    "message": "Click the button below to verify yourself.",
+    "image": null,
+    "icon": null,
+    "log": 1495274674496475180,
+    "button": {
+        "label": "Verify",
+        "emoji": "\u2714\ufe0f",
+        "style": "green"
+    },
+    "stats": {
+        "verified": 0
+    }
+}

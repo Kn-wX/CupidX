@@ -1,0 +1,18 @@
+{
+    "enabled": true,
+    "premium": false,
+    "auto_channels": [
+        1435279510898479236,
+        1438840453528293406,
+        1431924548588277853,
+        1462299134865440798,
+        1480532208044216425
+    ],
+    "dm_chat": true,
+    "model": "mistralai/mistral-small-24b-instruct-2501:free",
+    "stats": {
+        "messages": 159,
+        "tokens": 213760,
+        "started": "2025-11-22T02:36:33.752192"
+    }
+}
