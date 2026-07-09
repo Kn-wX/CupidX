@@ -21,7 +21,7 @@ CupidX is a high-performance, multipurpose Discord bot designed for modern serve
 - **Automod**: Filter invites, links, and spam messages automatically.
 
 ### 📊 Utility & Fun
-- **Global Stats**: Real-time bot statistics via a built-in API.
+- **Global Stats**: Real-time bot statistics through commands.
 - **Custom Roles**: Let users manage their own custom roles.
 - **Welcome System**: Beautiful greeting messages for new members.
 
