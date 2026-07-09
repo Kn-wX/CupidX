@@ -4,12 +4,6 @@ CupidX is a high-performance, multipurpose Discord bot designed for modern serve
 
 ## 🚀 Features
 
-### 🎧 Music System
-- **High Quality Audio**: Powered by Lavalink for crystal-clear music.
-- **Multiple Platforms**: Supports Spotify, YouTube, SoundCloud, and JioSaavn.
-- **Interactive Controls**: Modern UI with buttons for playback, loop, shuffle, and autoplay.
-- **Auto-Player Display**: Generates beautiful dynamic images for currently playing tracks.
-
 ### 🎫 Advanced Ticketing
 - **Interactive Wizard**: setup your ticket system in minutes with `/addpanel`.
 - **Role Selection**: easily choose staff roles from a searchable dropdown menu.
@@ -36,7 +30,6 @@ CupidX is a high-performance, multipurpose Discord bot designed for modern serve
 ### Prerequisites
 - Python 3.10+
 - A Discord Bot Token (from [Discord Developer Portal](https://discord.com/developers/applications))
-- A Lavalink server (pre-configured in `cogs/commands/music.py`)
 
 ### Setup
 1. **Clone the repository**:
