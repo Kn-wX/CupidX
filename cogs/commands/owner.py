@@ -1340,19 +1340,18 @@ async def setup(client):
     await client.add_cog(Owner(client))
     await client.add_cog(Badges(client))
 pe(FONT_PATH, 25)
-            draw_badges(badges, draw, img)
+draw_badges(badges, draw, img)
 
-            with BytesIO() as image_binary:
-                img.save(image_binary, 'PNG')
-                image_binary.seek(0)
-                file = discord.File(fp=image_binary, filename='badge.png')
+with BytesIO() as image_binary:
+    img.save(image_binary, 'PNG'
+             image_binary.seek(0)
+             file = discord.File(fp=image_binary, filename='badge.png')
+    embed.set_image(url="attachment://badge.png")
+    await ctx.send(embed=embed, file=file)
+else:
+await ctx.send(embed=embed)
 
-            embed.set_image(url="attachment://badge.png")
-            await ctx.send(embed=embed, file=file)
-        else:
-            await ctx.send(embed=embed)
-
-        await processing_message.delete()
+await processing_message.delete()
 
 
 async def setup(client):
