@@ -57,7 +57,6 @@ from .commands.antinuke import Antinuke
 from .commands.extraown import Extraowner
 from .commands.anti_wl import Whitelist
 from .commands.anti_unwl import Unwhitelist
-from .commands.lockrole import LockRole
 from .commands.blackjack import Blackjack
 from .commands.autoreact import AutoReaction
 from .commands.stats import Stats
